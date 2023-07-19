@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fasthand&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bestials</title>
+
+    <style>
+        body {
+            background-image: url("https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .left {
+            width: 50%;
+        }
+
+        .right {
+            width: 50%;
+        }
+
+        h1 {
+            position: relative;
+            text-align: center;
+            color: rgb(255, 1, 1);
+            margin: 0;
+            padding: 2%;
+            background-size: 100% 150%;
+        }
+
+        h1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://oncototravel.com.br/wp-content/uploads/2020/12/Gdansk-Polonia-cidade-antiga-noite.jpg");
+            opacity: 0.9;
+            background-size: 100% 250%;
+            background-position: center;
+            z-index: -1;
+        }
+
+        h2 {
+            position: relative;
+            color: white;
+            margin: 0%;
+            text-align: center;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.8;
+            z-index: -1;
+        }
+
+        h3 {
+            text-align: center;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.85;
+            color: white;
+            margin: 7% 0% 0% 0%;
+        }
+
+        #history {
+            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 90% 100%;
+        }
+
+        #caracteristicas {
+            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 90% 100%;
+        }
+
+        #caracteristicas p {
+            padding: 5% 10%;
+            font-family: 'Fasthand', cursive;
+            font-size: 20px;
+            color: black;
+            margin-bottom: 0%;
+        }
+
+        #caracteristicas img {
+            float: left;
+            padding: 30px 0px 0px 70px;
+            margin-right: 20px;
+            width: 200px;
+            height: 300px;
+        }
+
+        #costumes {
+            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90% 100%;
+        }
+
+        p {
+            padding: 5% 10%;
+            font-family: 'Fasthand', cursive;
+            font-size: 20px;
+            color: black;
+            text-align: ;
+        }
+
+        nav {
+            font-family: 'Fasthand', cursive;
+            text-align: center;
+            list-style-type: none;
+            font-size: 20px;
+            margin: 0%;
+            padding: 0px 0px 0px 0px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            text-shadow: -2px -2px 0 red, -2px 2px 0 red, 2px -2px 0 red, 2px 2px 0 red;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <a href="file:///C:/sts-workJS/siteRPG/tableRPG.html">
+            <span class="border">Just an RPG</span>
+        </a>
+    </h1>
+    <h2>Bestials</h2>
+    <div class="container">
+        <section class="left">
+            <p id="history">
+                <b>History of the Bestials:</b> The beast race originates from the plains of Condir, near the southern
+                seas,
+                this warrior race is also known for its ability to hunt and fish. Its main cities are located in places
+                that
+                have a great diversity of animals and fish. Although no one knows for sure the origin of this species,
+                it is
+                believed that it was the work of an elven wizard during the great war, who created this race to face the
+                hordes
+                of orcs.
+
+            </p>
+        </section>
+        <section class="right">
+            <div id="caracteristicas">
+                <img src="https://i.pinimg.com/474x/fe/7a/3b/fe7a3be10c8971460928f326a33f0801.jpg" alt="Caracteristicas"
+                    class="characteristic-image">
+                <p>
+                    <b>characteristics:</b> These beings have different heights and formats, as each family has the
+                    characteristics
+                    of a specific animal, such as the bear-men who are more than two meters tall, or the beaver-men who
+                    are less than 50cm.<br>
+                    His main physical abilities are:
+                <nav>
+                    <ol>
+                        <il>Uncommon strength</il><br>
+                        <il>resistance of specific animals</il><br>
+                        <il>speed</il><br>
+                    </ol>
+                </nav>
+                </p>
+            </div>
+        </section>
+    </div>
+    <section>
+        <h2 class="botton">
+            Habits:
+        </h2>
+        <p id="costumes">
+            The bestials are not very polite, in fact it is rare that they invite someone who is not of their race to
+            enter their homes, but despite this,
+            they tolerate foreigners because their main economic source is the trade of spices, leather and fisheries.
+        </p>
+    </section>
+</body>
+
+</html>

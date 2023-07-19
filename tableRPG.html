@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fasthand&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale1.0">
+    <title>Just an RPG</title>
+
+    <style>
+        body {
+            background-image: url("https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .border {
+            text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+        }
+
+        .left {
+            float: left;
+            width: 75%;
+        }
+
+        .right {
+            float: right;
+            width: 25%;
+        }
+
+        #bestials {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
+            padding: 9px 100px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #elfs {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
+            padding: 9px 112px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #fairys {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
+            padding: 9px 103px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #halflings {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
+            padding: 9px 95px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #humans {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
+            padding: 9px 98px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #orcs {
+            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
+            padding: 9px 112px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #lether {
+            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+            background-size: 80% 100%;
+            background-repeat: no-repeat;
+            background-position: 50% top;
+            text-align: center;
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            font-family: 'Fasthand', cursive;
+            font-size: 20px;
+            color: black;
+        }
+
+        #class {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJ7P3y0Lx2kv_KzZMHOZYafx7oYn58mH-dg&usqp=CAU");
+            background-size: 100% 90%;
+            opacity: 0.95;
+            border: 5px solid rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+
+        #class ol {
+            list-style-type: none;
+            padding: 0;
+            margin: 30px;
+        }
+
+        #map {
+            padding: 100px;
+            margin-left: 0%;
+            border: solid;
+            border-width: 4px;
+            border-color: rgb(34, 7, 7);
+            position: relative;
+            overflow: hidden;
+        }
+
+        #map img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+        }
+
+        h1 {
+            position: relative;
+            text-align: center;
+            color: rgb(255, 1, 1);
+            margin: 0;
+            padding: 2%;
+            background-size: 100% 150%;
+        }
+
+        h1::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("https://p4.wallpaperbetter.com/wallpaper/537/462/381/army-cavalry-bows-medieval-wallpaper-preview.jpg");
+            background-size: 100% 250%;
+            z-index: -1;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.85;
+            margin: 0%;
+        }
+
+        h3 {
+            text-align: center;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.85;
+            color: white;
+            margin: 7% 0% 0% 0%;
+        }
+
+        p {
+            text-align: center;
+            color: black;
+            text-shadow: -1px -1px 0 white;
+        }
+
+        nav li {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        <a href="file:///C:/sts-workJS/siteOrun/index.html">
+            <span class="border">Just an RPG</span>
+        </a>
+    </h1>
+    <div class="container">
+        <section class="right">
+            <h2 id="header-one" class="red-botton left-bord">
+                Class
+            </h2>
+            <nav id="class">
+                <ol>
+                    <br>
+                    <b>
+                        <li><a id="bestials" href="file:///C:/sts-workJS/siteRPG/races/bestial.html">Bestials</li></a><br>
+                        <li><a id="elfs" href="file:///C:/sts-workJS/siteRPG/races/elfs.html">Elfs</li></a><br>
+                        <li><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairy.html">Fairys</li></a><br>
+                        <li><a id="halflings" href="file:///C:/sts-workJS/siteRPG/races/halflings.html">Halflings</li></a><br>
+                        <li><a id="humans" href="file:///C:/sts-workJS/siteRPG/races/humans.html">Humans</li></a><br>
+                        <li><a id="orcs" href="file:///C:/sts-workJS/siteRPG/races/orcs.html">orcs</li></a><br>
+                    </b>
+                </ol>
+            </nav>
+            <h3>
+                Map
+            </h3>
+            <nav id="map">
+                <a href="file:///C:/sts-workJS/siteOrun/mapa.html"><img
+                        src="https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg"></a>
+            </nav>
+        </section>
+        <section class="left">
+            <h2 id="header-two" class="red-botton left-bord">
+                History
+            </h2>
+            <p id="lether">
+                <b>linha temporal das eras</b> <br><br>
+                <b>Cara rainha Raira. <br>
+                É muito bom saber que seu neto Uriam apesar de ser tão jovem se interesse tanto pela história das terras
+                do
+                Reino de Orun.<br>
+                Infelizmente não será possível para mim estar no Reino de Ereborn antes do solstício de verão para
+                passar
+                meus
+                conhecimento pessoalmente, mas para saciar a curiosidade do pequeno Uriam vou adiantar umas história por
+                essa
+                carta.<br>
+                As eras do Reino de Orun são comumente conhecidas pela maioria por ser três, mas os que possuem mais
+                conhecimento diríam que foram seis eras. <br>
+                <br>Era das lendas <br><br>
+                Acontecimentos importantes. <br>
+                Poca coisa realmente e possível saber sobre essa era, mas estudiosos acreditam que o mundo era povoada
+                por
+                seres
+                mágicos de imenso poder, os dragões são descendente dessa época e claro muitos dos seres mágicos que
+                existem
+                hoje, Augusta dizem que nessa época os kalkisedes era o povo em maior quantidade provavelmente por sua
+                ligação
+                com as bestas mágicas. <br>
+                Essa era teve a duração de mais ou menos de 9 mil anos. <br>
+                O final da era das lendas e marcado com o começo dos povoados, quando as raças deixaram de serem
+                coletores e
+                caçadores para começar a cultivar e criar animais, os o suarios de magia já estavam iniciando o
+                refinamento
+                do
+                hj conhecemos e também as primeiras línguas nasceram, isso foi possível principalmente por uma "guerra"
+                Entre as
+                bestas mágicas dando espaço para que outras criaturas pudessem sobreviver. <br>
+                <br>
+                Era da história contada. <br><br>
+                Essa era é conhecida por ser a era mais curta da história do Reino, ela durou cerca de 1000 anos. <br>
+                Ela é principalmente conhecida pela difusão das línguas que espalhou as história por todo os
+                territórios,
+                história contadas em volta de fogueiras e em choupanas umidas. <br>
+                <br>Acontecimentos importantes. <br><br>
+                O começo desta era foi marcado pela assenção de Kulmanthor como senhor dos dragões ai derrotar o Leviatã
+                o
+                dragão dos marés. <br>
+                Também a lenda do cristal de Orun nesse no começo dessa era. <br>
+                Os hj comumente conhecidos como magos tiveram sua história iniciada nessa era com pequenos grupos de
+                praticantes
+                trocando conhecimento entre si.<br>
+                Essa era finalizou com a assenção e domínio dos territórios do Reino pelo necromante e foi quando o nome
+                Reino
+                de Orun foi usado pela primeira vez. <br>
+                OBS: Muitas das história e lendas do Reino nasceu nesta época, mas para maiores informações as
+                bibliotecas
+                da
+                Torre dos magos e da cidade de Percia são as mais indicadas. <br>
+                <br>
+                Na próxima carta contarei sobre as outras eras.<br>
+                <br>
+                Grato<br>
+                Mago Veriam Farkeis.</b>
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
