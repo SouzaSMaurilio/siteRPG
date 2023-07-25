@@ -23,50 +23,58 @@
 
         .left {
             float: left;
-            width: 75%;
+            width: 70%;
         }
 
         .right {
             float: right;
-            width: 25%;
+            width: 30%;
+            margin-top: 20px;
         }
 
         #bestials {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 100px;
+            background-image: url("https://img.freepik.com/fotos-premium/um-tigre-vestindo-um-moletom-preto-com-detalhes-dourados_911201-178.jpg");
+            padding: 43px 91px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
         #elfs {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
-            padding: 9px 112px;
+            background-image: url("https://static.wixstatic.com/media/371a13_da64c793f0a743ce846c0ea8f2dd9332~mv2.jpg/v1/fill/w_480,h_560,al_c,lg_1,q_80,enc_auto/371a13_da64c793f0a743ce846c0ea8f2dd9332~mv2.jpg");
+            padding: 43px 91px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
         #fairys {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 103px;
+            background-image: url("https://img.quizur.com/f/img644ae0ebcaff35.27049047.jpeg?lastEdited=1682628854");
+            padding: 43px 91px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
         #halflings {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
-            padding: 9px 95px;
+            background-image: url("https://i0.wp.com/orbedosdragoes.com/wp-content/uploads/2015/04/Halfling-10.jpg?ssl=1");
+            padding: 43px 91px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
         #humans {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro2.jpg");
-            padding: 9px 98px;
+            background-image: url("https://media.istockphoto.com/id/525035812/pt/foto/guerreiro-medieval-com-espada-armadura-e-corrente.jpg?s=612x612&w=0&k=20&c=TOHGYoiQ5-BGgRFbU7KZ4cuodwZ31eAdrNyNgRKWSr4=");
+            padding: 43px 91px;
             background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
         #orcs {
+            background-image: url("https://assetsio.reedpopcdn.com/its-not-easy-being-green-a-brief-history-of-orcs-in-video-games-1580836292361.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #on {
             background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
             padding: 9px 112px;
             background-size: 100% 100%;
@@ -88,23 +96,34 @@
             color: black;
         }
 
-        #class {
+        #races {
             background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJ7P3y0Lx2kv_KzZMHOZYafx7oYn58mH-dg&usqp=CAU");
             background-size: 100% 90%;
             opacity: 0.95;
             border: 5px solid rgba(0, 0, 0, 0.5);
             text-align: center;
+            margin-top: 30px;
         }
 
-        #class ol {
-            list-style-type: none;
-            padding: 0;
-            margin: 30px;
+        #class {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJ7P3y0Lx2kv_KzZMHOZYafx7oYn58mH-dg&usqp=CAU");
+            width: 390px;
+            height: 400px;
+            background-size: 100%;
+            text-align: center;
+            font-size: 20px;
+            border: 4px;
+            border-style: solid;
+            margin-top: 30px;
         }
 
         #map {
-            padding: 100px;
-            margin-left: 0%;
+            margin-top: 30px;
+        }
+
+        #map-img {
+            padding: 150px 100px;
+            margin: 0%;
             border: solid;
             border-width: 4px;
             border-color: rgb(34, 7, 7);
@@ -112,7 +131,7 @@
             overflow: hidden;
         }
 
-        #map img {
+        #map-img img {
             position: absolute;
             width: 100%;
             height: 100%;
@@ -158,7 +177,7 @@
             background-repeat: no-repeat;
             opacity: 0.85;
             color: white;
-            margin: 7% 0% 0% 0%;
+            margin: 0%;
         }
 
         p {
@@ -167,9 +186,18 @@
             text-shadow: -1px -1px 0 white;
         }
 
-        nav li {
-            list-style-type: none;
-            text-align: center;
+        tr,
+        td {
+            border: 4px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-style: solid;
+            width: 181px;
+            height: 100px;
+        }
+
+        caption {
+            border: 4px;
+            border-style: solid;
         }
 
         a {
@@ -177,6 +205,11 @@
             color: white;
             text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
         }
+
+        ol {
+            list-style: none;
+        }
+
     </style>
 </head>
 
@@ -188,93 +221,70 @@
     </h1>
     <div class="container">
         <section class="right">
-            <h2 id="header-one" class="red-botton left-bord">
-                Class
-            </h2>
+            <nav id="races">
+                <h2>Races</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><a id="bestials" href="file:///C:/sts-workJS/siteRPG/races/bestial.html"></a>
+                            </td>
+                            <td><a id="elfs" href="file:///C:/sts-workJS/siteRPG/races/elfs.html"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairy.html"></a></td>
+                            <td><a id="halflings" href="file:///C:/sts-workJS/siteRPG/races/halflings.html"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a id="humans" href="file:///C:/sts-workJS/siteRPG/races/humans.html">
+                                </a></td>
+                            <td><a id="orcs" href="file:///C:/sts-workJS/siteRPG/races/orcs.html"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </nav>
             <nav id="class">
+                <h3>Class</h3>
                 <ol>
-                    <br>
                     <b>
-                        <li><a id="bestials" href="file:///C:/sts-workJS/siteRPG/races/bestial.html">Bestials</li></a><br>
-                        <li><a id="elfs" href="file:///C:/sts-workJS/siteRPG/races/elfs.html">Elfs</li></a><br>
-                        <li><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairy.html">Fairys</li></a><br>
-                        <li><a id="halflings" href="file:///C:/sts-workJS/siteRPG/races/halflings.html">Halflings</li></a><br>
-                        <li><a id="humans" href="file:///C:/sts-workJS/siteRPG/races/humans.html">Humans</li></a><br>
-                        <li><a id="orcs" href="file:///C:/sts-workJS/siteRPG/races/orcs.html">orcs</li></a><br>
+                    <li><a id="on" href="">Tanker</a></li><br>
+                    <li><a id="on" href="">buffer</a></li><br>
+                    <li><a id="on" href="">Rogue</a></li><br>
+                    <li><a id="on" href="">Hunter</a></li><br>
+                    <li><a id="on" href="">Swordmaster</a></li><br>
+                    <li><a id="on" href="">Archer</a></li><br>
+                    <li><a id="on" href="">Mage</a></li>
                     </b>
                 </ol>
             </nav>
-            <h3>
+            <h2 id="map">
                 Map
-            </h3>
-            <nav id="map">
+            </h2>
+            <nav id="map-img">
                 <a href="file:///C:/sts-workJS/siteOrun/mapa.html"><img
                         src="https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg"></a>
             </nav>
         </section>
+        <h2>
+            History
+        </h2>
         <section class="left">
-            <h2 id="header-two" class="red-botton left-bord">
-                History
-            </h2>
             <p id="lether">
-                <b>linha temporal das eras</b> <br><br>
-                <b>Cara rainha Raira. <br>
-                É muito bom saber que seu neto Uriam apesar de ser tão jovem se interesse tanto pela história das terras
-                do
-                Reino de Orun.<br>
-                Infelizmente não será possível para mim estar no Reino de Ereborn antes do solstício de verão para
-                passar
-                meus
-                conhecimento pessoalmente, mas para saciar a curiosidade do pequeno Uriam vou adiantar umas história por
-                essa
-                carta.<br>
-                As eras do Reino de Orun são comumente conhecidas pela maioria por ser três, mas os que possuem mais
-                conhecimento diríam que foram seis eras. <br>
-                <br>Era das lendas <br><br>
-                Acontecimentos importantes. <br>
-                Poca coisa realmente e possível saber sobre essa era, mas estudiosos acreditam que o mundo era povoada
-                por
-                seres
-                mágicos de imenso poder, os dragões são descendente dessa época e claro muitos dos seres mágicos que
-                existem
-                hoje, Augusta dizem que nessa época os kalkisedes era o povo em maior quantidade provavelmente por sua
-                ligação
-                com as bestas mágicas. <br>
-                Essa era teve a duração de mais ou menos de 9 mil anos. <br>
-                O final da era das lendas e marcado com o começo dos povoados, quando as raças deixaram de serem
-                coletores e
-                caçadores para começar a cultivar e criar animais, os o suarios de magia já estavam iniciando o
-                refinamento
-                do
-                hj conhecemos e também as primeiras línguas nasceram, isso foi possível principalmente por uma "guerra"
-                Entre as
-                bestas mágicas dando espaço para que outras criaturas pudessem sobreviver. <br>
-                <br>
-                Era da história contada. <br><br>
-                Essa era é conhecida por ser a era mais curta da história do Reino, ela durou cerca de 1000 anos. <br>
-                Ela é principalmente conhecida pela difusão das línguas que espalhou as história por todo os
-                territórios,
-                história contadas em volta de fogueiras e em choupanas umidas. <br>
-                <br>Acontecimentos importantes. <br><br>
-                O começo desta era foi marcado pela assenção de Kulmanthor como senhor dos dragões ai derrotar o Leviatã
-                o
-                dragão dos marés. <br>
-                Também a lenda do cristal de Orun nesse no começo dessa era. <br>
-                Os hj comumente conhecidos como magos tiveram sua história iniciada nessa era com pequenos grupos de
-                praticantes
-                trocando conhecimento entre si.<br>
-                Essa era finalizou com a assenção e domínio dos territórios do Reino pelo necromante e foi quando o nome
-                Reino
-                de Orun foi usado pela primeira vez. <br>
-                OBS: Muitas das história e lendas do Reino nasceu nesta época, mas para maiores informações as
-                bibliotecas
-                da
-                Torre dos magos e da cidade de Percia são as mais indicadas. <br>
-                <br>
-                Na próxima carta contarei sobre as outras eras.<br>
-                <br>
-                Grato<br>
-                Mago Veriam Farkeis.</b>
+                For a long time, civilizations were not yet populous and the lands of the kingdom were not explored, but
+                with the growth of races, the kingdom became known for its adventurers.<br>
+                This custom of adventurers exploring the lands in search of gold, glory and adventures, was born with a
+                young Halfling who decided to take a risk in the world beyond the mountains his name was Dmikla
+                so'Sotura, this young man started to walk through the lands of the kingdom meeting Humans, Orcs, Fairies
+                and Elves, he was the one who designed the map of the kingdom and who sang the first songs of battles
+                against dragons, sea serpents and other creatures.<br>
+                Over time, inspired by the stories of this adventurer, others took courage and left to explore the
+                world.<br>
+                Humans with a map in hand began to create roads and streets to connect their lands, and then came the
+                first dispute over lands known as the great war, and in that a powerful wizard created the Bestials,
+                after the great war the nations were delimited, everyone knew where the lands of the Elves, humans,
+                fairies and the like were, but for some reason the number of beings and new species of creatures that
+                emerge annually is alarming and thanks to that, adventurers and hunters are still a necessity, and there
+                are always groups of people who decide walk your life from village to village killing monsters in
+                exchange for gold, food and drink.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
             </p>
         </section>
     </div>
