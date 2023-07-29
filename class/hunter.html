@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url("https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 0%;
+        }
+
+        .left {
+            width: 20%;
+        }
+
+        .center {
+            flex: 1;
+            text-align: center;
+        }
+
+        .right {
+            width: 20%;
+            height: 100%;
+        }
+
+        #weapon {
+            background-image: url("https://p.turbosquid.com/ts-thumb/V5/nuUcv0/ARXYW4uU/medieval_signature/jpg/1426437712/600x600/fit_q87/828d33221e22fc8e6c98540594d3fb595e4fd802/medieval_signature.jpg");
+            background-size: 80%;
+            margin: 2%;
+            width: 96%;
+            position: relative;
+            border-collapse: collapse;
+        }
+
+        #armor {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbXxzgBB5vBltN7EFExCSmV2r4qBDIKsnACWDGt5KvkZCrP9Vr7UpZRm3vdHp0p41KOv8&usqp=CAU");
+            margin: 2%;
+            width: 96%;
+            position: relative;
+            border-collapse: collapse;
+        }
+
+        #h21 {
+            margin: 2%;
+        }
+
+        h1 {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Ew9YB4GD-EMeLJcYjlwR75qC6lJkJtUx2MM9zKH_9gl0W2KzVLlT6P68_g30EpFmbA&usqp=CAU");
+            width: 100%;
+            height: 40px;
+            position: relative;
+            text-align: center;
+            text-shadow: -2px -2px 0 red, -2px 2px 0 red, 2px -2px 0 red, 2px 2px 0 red;
+            margin: 0;
+            padding: 2%;
+        }
+
+        h2 {
+            background-image: url("https://www.designi.com.br/images/preview/10500035.jpg");
+            border-style: solid;
+            border-color: black;
+            text-align: center;
+            margin: 0%;
+        }
+
+        th {
+            text-align: center;
+            color: white;
+            border: 1px;
+            height: 15px;
+            border-style: solid;
+            border-color: white;
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+
+        td {
+            text-align: center;
+            color: white;
+            height: 15px;
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        p {
+            background-image: url("https://img.freepik.com/fotos-gratis/fundo-do-estilo-de-grunge-com-textura-de-papel-queimado_1048-5207.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            text-align: center;
+            padding: 5%;
+            margin-top: 0.8%;
+        }
+
+        a {
+            text-decoration: none;
+            color: black
+        }
+
+        ol {
+            background-image: url("https://pm1.aminoapps.com/6812/34f35878623fd5f63d9c25cccd92eaffba915d08v2_00.jpg");
+            margin: 2%;
+            text-align: center;
+            text-shadow: -2px -2px 0 black, -2px 2px 0 black, 2px -2px 0 black, 2px 2px 0 black;
+            color: white;
+            border: 1px;
+            border-style: solid;
+            border-color: black;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            height: 300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html">Just an RPG</a></h1>
+    <div class="container">
+        <section class="left">
+            <h2>weapons</h2>
+            <table id="weapon">
+                <tr>
+                    <th>weapon</th>
+                    <th>control</th>
+                    <th>damage</th>
+                </tr>
+                <tr>
+                    <td>Bow</td><td>Light</td><td>Low</td>
+                </tr>
+                <tr>
+                    <td>Crossbow</td><td>Medium</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Throwing Knives</td><td>Light</td><td>Low</td>
+                </tr>
+                <tr>
+                    <td>Boomerang</td><td>Light</td><td>Low</td>
+                </tr>
+                <tr>
+                    <td>Hunting Rifle</td><td>Heavy</td><td>High</td>
+                </tr>
+                <tr>
+                    <td>Longbow</td><td>Light</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Claw Gauntlets</td><td>Medium</td><td>High</td>
+                </tr>
+                <tr>
+                    <td>Sniper Bow</td><td>Medium</td><td>High</td>
+                </tr>
+                <tr>
+                    <td>Throwing Axes</td><td>Medium</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Shotgun</td><td>Heavy</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Blowgun</td><td>Light</td><td>Low</td>
+                </tr>
+                <tr>
+                    <td>Bo Staff</td><td>Medium</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Composite Bow</td><td>Medium</td><td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Poisoned Darts</td><td>Light</td><td>Low</td>
+                </tr>
+                <tr>
+                    <td>Crossblade</td><td>Medium</td><td>Moderate</td>
+                </tr>
+                
+            </table>
+
+            <h2 id="h21">Armor</h2>
+            <table id="armor">
+                <tr>
+                    <th>Armor</th>
+                    <th>type</th>
+                    <th>bonus</th>
+                </tr>
+                <tr>
+                    <td>Wolf hat</td>
+                    <td>cap</td>
+                    <td>low resistence, intimidation bonus</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+        </section>
+        <section class="center">
+            <h2 id="class">Class</h2>
+            <p id="content">
+                <img
+                    src="https://bokkein-rpg.weebly.com/uploads/1/3/8/2/13826656/______995686202.jpg">
+                <br><b> Hunter </b><br><br> The Hunter is a versatile and agile class in the roleplaying world, known
+                for its tracking skills, precision and mastery of ranged weapons. Hunters specialize in hunting and
+                eliminating targets from afar, whether using bows and arrows, crossbows or even firearms in more modern
+                environments. With a deep connection to nature and their incredible ability to camouflage themselves,
+                they are masters of moving silently through the most challenging terrain.<br>
+                The Hunter's main feature is its tracking ability, which allows it to locate enemies and prey even in
+                the most adverse conditions. Your keen senses and knowledge of creatures' habitats make it possible to
+                avoid ambushes and surprise opponents. Additionally, their accuracy and dexterity with ranged weapons
+                give them a significant advantage in combat.<br>
+                Hunters can play different roles in an adventuring party. They can be excellent explorers, able to guide
+                the group safely through unknown territories. In battle, they are skilled marksmen, capable of taking
+                out long-range targets before they even get close enough to pose a threat.<br>
+                Among his most notable abilities are True Shot, a powerful blow that deals critical damage to the
+                target, and Rapid Shot, which lets you fire multiple arrows in quick succession. Additionally, Hunters
+                often have the ability to tame wild animals, making them faithful companions on their journeys.<br>
+                However, despite their proficiency in ranged attacks, Hunters can be vulnerable in melee combat. For
+                this reason, they often prefer to keep a safe distance from enemies and use their camouflage and evasion
+                abilities to avoid direct confrontation.<br>
+            </p>
+        </section>
+        <section class="right">
+            <h2>Habilits</h2>
+            <ol>
+                <br><b>
+                    <li>habilit</li><br>
+                    <li>habilit</li><br>
+                    <li>habilit</li><br>
+                    <li>habilit</li><br>
+                    <li>habilit</li><br>
+                    <li>habilit</li><br>
+                    <li>habilit</li>
+                </b><br>
+            </ol>
+        </section>
+    </div>
+</body>
+
+</html>

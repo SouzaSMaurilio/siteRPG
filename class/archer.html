@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanker</title>
+    <title>Archer</title>
 
     <style>
         body {
@@ -63,7 +63,7 @@
             height: 40px;
             position: relative;
             text-align: center;
-            text-shadow: -2px -2px 0 white, -2px 2px 0 white, 2px -2px 0 white, 2px 2px 0 white;
+            text-shadow: -2px -2px 0 red, -2px 2px 0 red, 2px -2px 0 red, 2px 2px 0 red;
             margin: 0;
             padding: 2%;
         }
@@ -111,8 +111,7 @@
         }
 
         ol {
-            background-image: url("https://thumbs.dreamstime.com/b/escudo-m%C3%A1gico-da-arte-de-fantasia-luminosa-cega-gera%C3%A7%C3%A3o-ai-269257211.jpg");
-            background-size: 100% 100%;
+            background-image: url("https://pm1.aminoapps.com/6812/34f35878623fd5f63d9c25cccd92eaffba915d08v2_00.jpg");
             margin: 2%;
             text-align: center;
             text-shadow: -2px -2px 0 black, -2px 2px 0 black, 2px -2px 0 black, 2px 2px 0 black;
@@ -127,7 +126,7 @@
         }
 
         img {
-            width: 200px;
+            width: 300px;
         }
     </style>
 </head>
@@ -139,90 +138,91 @@
             <h2>weapons</h2>
             <table id="weapon">
                 <tr>
-                    <th>Weapon</th>
+                    <th>weapon</th>
                     <th>control</th>
                     <th>damage</th>
                 </tr>
                 <tr>
-                    <td>Hamer</td>
-                    <td>hard</td>
-                    <td>high</td>
+                    <td>light arch</td>
+                    <td>easy</td>
+                    <td>low</td>
                 </tr>
-                <tr>
-                    <td>Katana</td>
+                    <td>Longbow</td>
                     <td>Light</td>
-                    <td>High</td>
+                    <td>Easy</td>
                 </tr>
                 <tr>
-                    <td>Rapier</td>
+                    <td>Composite Bow</td>
+                    <td>Medium</td>
+                    <td>Moderate</td>
+                </tr>
+                <tr>
+                    <td>Recurve Bow</td>
                     <td>Light</td>
-                    <td>Medium</td>
+                    <td>Moderate</td>
                 </tr>
                 <tr>
-                    <td>Broadsword</td>
-                    <td>Medium</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Claymore</td>
-                    <td>Heavy</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Cutlass</td>
-                    <td>Medium</td>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <td>Scimitar</td>
-                    <td>Light</td>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <td>Longsword</td>
+                    <td>Crossbow</td>
                     <td>Medium</td>
                     <td>High</td>
                 </tr>
                 <tr>
-                    <td>Sabre</td>
+                    <td>Shortbow</td>
                     <td>Light</td>
                     <td>Low</td>
                 </tr>
                 <tr>
-                    <td>Falchion</td>
-                    <td>Medium</td>
-                    <td>Medium</td>
+                    <td>Yumi Bow</td>
+                    <td>Heavy</td>
+                    <td>Low</td>
                 </tr>
                 <tr>
-                    <td>Gladius</td>
+                    <td>Reflex Bow</td>
+                    <td>Light</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>Compound Bow</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                </tr>
+                <tr>
+                    <td>Chakram</td>
                     <td>Light</td>
                     <td>Low</td>
                 </tr>
                 <tr>
-                    <td>Zweihander</td>
-                    <td>Heavy</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Jian</td>
+                    <td>Sling</td>
                     <td>Light</td>
-                    <td>Medium</td>
+                    <td>Low</td>
                 </tr>
                 <tr>
-                    <td>Shamshir</td>
+                    <td>Throwing Knives</td>
                     <td>Light</td>
-                    <td>High</td>
+                    <td>Low</td>
                 </tr>
                 <tr>
-                    <td>Spatha</td>
-                    <td>Medium</td>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <td>Wakizashi</td>
+                    <td>Blowgun</td>
                     <td>Light</td>
-                    <td>Medium</td>
+                    <td>Low</td>
                 </tr>
+                <tr>
+                    <td>Boomerang</td>
+                    <td>Light</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Slingshot</td>
+                    <td>Light</td>
+                    <td>Low</td>
+                </tr>
+                <tr>
+                    <td>Slingstaff</td>
+                    <td>Medium</td>
+                    <td>Moderate</td>
+                </tr>
+
+
             </table>
 
             <h2 id="h21">Armor</h2>
@@ -230,52 +230,32 @@
                 <tr>
                     <th>Armor</th>
                     <th>type</th>
-                    <th>resistance</th>
+                    <th>bonus</th>
                 </tr>
                 <tr>
-                    <td>Heavy helmet</td>
+                    <td>Adventure Cap</td>
                     <td>helm</td>
-                    <td>high</td>
+                    <td>More agility</td>
                 </tr>
                 <tr>
-                    <td>Heavy Metal Helmet</td>
-                    <td>Helm</td>
-                    <td>High</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Plate Metal Chestplate</td>
-                    <td>Chestplate</td>
-                    <td>High</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Chainmail Metal Gauntlets</td>
-                    <td>Gauntlets</td>
-                    <td>Medium</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td>Steel Metal Greaves</td>
-                    <td>Greaves</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Wooden Bracers</td>
-                    <td>Bracers</td>
-                    <td>Low</td>
-                </tr>
-                <tr>
-                    <td>Metal Plate Pauldrons</td>
-                    <td>Pauldrons</td>
-                    <td>High</td>
-                </tr>
-                <tr>
-                    <td>Wooden Scalemail Tunic</td>
-                    <td>Tunic</td>
-                    <td>Medium</td>
-                </tr>
-                <tr>
-                    <td>Chainmail Metal Coif</td>
-                    <td>Coif</td>
-                    <td>Medium</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </section>
@@ -283,35 +263,29 @@
             <h2 id="class">Class</h2>
             <p id="content">
                 <img
-                    src="https://thumbs.dreamstime.com/b/detail-knight-armor-gloves-sword-knight-detail-knight-armor-gloves-sword-knight-99536749.jpg">
-                <br><b> Tanker </b><br><br> The Tanker class is one of the most important and fundamental classes in RPG
-                games. Its main role is to act as a human shield, absorbing damage from enemies and protecting the
-                weakest members of the party. This class is essential to maintain stability and balance in battles,
-                allowing other team members to focus on dealing damage to enemies.<br>
-                <br>
-                <b>Tanker Class Features:</b><br>
-                <br>
-                High Resistance: Tankers are known to possess a high level of physical and magical resistance. They have
-                a large amount of hit points and a high resistance to physical and magical attacks, which makes
-                them capable of withstanding powerful blows from enemies.<br>
-                Protection Abilities: Tankers have special abilities that allow them to protect allies from enemy
-                attacks. This includes self-defense skills such as blocking and dodging, as well as area protection
-                skills to reduce damage dealt to the entire party.<br>
-                Agro Management: Tankers have the ability to draw and sustain aggression from enemies, causing them to
-                focus their attacks on the tank instead of attacking more vulnerable allies. This skill is known as
-                "agro management" and is critical to keeping the team safe.<br>
-                Armor and Shields: Tankers often wear heavy armor and shields to further increase their defense. These
-                pieces of equipment provide additional strength and make the tanker even more efficient in their role of
-                protecting the group.<br>
-                Taunt: The taunt skill is one of the trademarks of tankers. It allows the tanker to draw enemies'
-                attention to himself, making them attack with priority. This is especially useful when enemies are
-                attacking other party members or when you need to reposition the enemy during battle.<br>
-                Leadership and Strategy: In addition to their combat skills, tankers often act as group leaders,
-                coordinating actions and strategies during battles. Your ability to make quick and efficient decisions
-                is crucial to your team's success.<br>
-                Versatility: While tankers specialize in defense, many of them also have controlled damage or crowd
-                control abilities. These skills allow them to keep enemies in check and be a more complete force on the
-                battlefield.<br><br>
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOvFEplSdNfHqxdggDxzHsHGfJz5JvG1xElQ&usqp=CAU">
+                <br><b> Archer </b><br><br> The "Archer" class is one of the most popular classes in many roleplaying
+                and
+                fantasy games. Archers are experts in ranged combat, skilled at hitting precise targets with bows and
+                arrows. They are agile, stealthy and possess great dexterity, which allows them to be efficient in
+                avoiding melee attacks and attacking from a distance with great precision.<br>
+                <br><b>Typical archer skills and characteristics include:</b><br><br>
+                Precision Shooting: Archers are known for their ability to aim accurately at distant targets. They can
+                hit weak spots and deal significant damage even at long range.<br>
+                Agility: Agility is one of the main characteristics of an archer. They are able to move quickly and
+                easily, making them difficult to reach in combat.<br>
+                Stealth: Many archers are masters in the art of stealth, being able to hide in the shadows and attack
+                their enemies in sneaky and surprising ways.<br>
+                Ranged Weapon Specialization: Archers are experts in the use of bows and arrows, but can also be
+                proficient with other ranged weapons such as crossbows and javelins.<br>
+                High Dexterity: Their dexterity is one of the key traits that allow them to hit targets with such
+                precision. They have quick reflexes and are able to perform complex movements with ease.<br>
+                Melee Vulnerability: Despite their prowess in ranged combat, archers are generally weaker in melee
+                combat. They prefer to keep their distance from more powerful and dangerous enemies.<br>
+                Special Weapons: In addition to traditional bows and arrows, some archers can use special arrows with
+                magical effects, such as poisoned, explosive, or enchanted arrows.<br>
+                Perception Focus: Perception is an important ability for archers, as it allows them to detect enemies
+                from a distance and anticipate enemy movements.<br>
             </p>
         </section>
         <section class="right">
