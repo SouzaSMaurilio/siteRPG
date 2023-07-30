@@ -15,6 +15,7 @@
             background-image: url("https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
+            margin: 0%;
         }
 
         .left {
@@ -70,59 +71,10 @@
             background-repeat: no-repeat;
         }
 
-
-        #archer {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 114px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #hunter {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 112px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #mage {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 118px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #rogue {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 115px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #support {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 109px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #swordsman {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 91px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
-        #tanker {
-            background-image: url("file:///C:/Users/Tina2/Downloads/livro1.jpg");
-            padding: 9px 111px;
-            background-size: 100% 100%;
-            background-repeat: no-repeat;
-        }
-
         #lether {
             background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
             background-size: 80% 100%;
+            height: 100%;
             background-repeat: no-repeat;
             background-position: 50% top;
             text-align: center;
@@ -141,18 +93,6 @@
             opacity: 0.95;
             border: 5px solid rgba(0, 0, 0, 0.5);
             text-align: center;
-            margin-top: 30px;
-        }
-
-        #class {
-            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJ7P3y0Lx2kv_KzZMHOZYafx7oYn58mH-dg&usqp=CAU");
-            width: 390px;
-            height: 370px;
-            background-size: 100%;
-            text-align: center;
-            font-size: 20px;
-            border: 4px;
-            border-style: solid;
             margin-top: 30px;
         }
 
@@ -178,25 +118,46 @@
             left: 0%;
         }
 
-        h1 {
-            position: relative;
-            text-align: center;
-            color: rgb(255, 1, 1);
-            margin: 0;
-            padding: 2%;
-            background-size: 100% 150%;
+        #table1 {
+            border-style: solid;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+
         }
 
-        h1::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
+        #table1 tr {
+            background-color: rgba(83, 83, 83, 0.5);
+            text-align: center;
+            color: white;
             width: 100%;
-            height: 100%;
-            background-image: url("https://p4.wallpaperbetter.com/wallpaper/537/462/381/army-cavalry-bows-medieval-wallpaper-preview.jpg");
-            background-size: 100% 250%;
-            z-index: -1;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+            border-style: none;
+        }
+
+        #table1 td {
+            text-align: center;
+            text-shadow: -2px -2px 0 white;
+            color: black;
+            height: 100px;
+            vertical-align: middle;
+            font-size: 24px;
+            margin: 0%;
+            padding-inline: 100px 150px;
+            border-style: none;
+        }
+
+        #table2  tr,
+        td {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-style: solid;
+            width: 100px;
+            height: 100px;
+            margin: 0%;
         }
 
         h2 {
@@ -225,15 +186,6 @@
             text-shadow: -1px -1px 0 white;
         }
 
-        tr,
-        td {
-            border: 4px;
-            background-color: rgba(0, 0, 0, 0.5);
-            border-style: solid;
-            width: 181px;
-            height: 100px;
-        }
-
         caption {
             border: 4px;
             border-style: solid;
@@ -248,23 +200,23 @@
         ol {
             list-style: none;
         }
-
     </style>
 </head>
 
 <body>
-    <h1>
-        <a href="file:///C:/sts-workJS/siteOrun/index.html">
-            <span class="border">Just an RPG</span>
-        </a>
-    </h1>
-
-    </h2>
+    <table id="table1"><b>
+            <tr>
+                <td><a><b>Weapons</b></a></td>
+                <td id="logo"><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html"><b>Just an RPG</b></a></td>
+                <td><a href="file:///C:/sts-workJS/siteRPG/class/classI.html"><b>Class</b></a></td>
+            </tr>
+        </b>
+    </table>
     <div class="container">
         <section class="right">
             <nav id="races">
                 <h2>Races</h2>
-                <table>
+                <table id="table2">
                     <tbody>
                         <tr>
                             <td><a id="bestials" href="file:///C:/sts-workJS/siteRPG/races/bestial.html"></a>
@@ -282,20 +234,6 @@
                         </tr>
                     </tbody>
                 </table>
-            </nav>
-            <nav id="class">
-                <h3>Class</h3>
-                <ol>
-                    <b>
-                        <li><a id="archer" href="file:///C:/sts-workJS/siteRPG/class/archer.html">Archer</a></li><br>
-                        <li><a id="hunter" href="file:///C:/sts-workJS/siteRPG/class/hunter.html">Hunter</a></li><br>
-                        <li><a id="mage" href="file:///C:/sts-workJS/siteRPG/class/mage.html">Mage</a></li><br>
-                        <li><a id="rogue" href="file:///C:/sts-workJS/siteRPG/class/rogue.html">Rogue</a></li><br>
-                        <li><a id="support" href="file:///C:/sts-workJS/siteRPG/class/support.html">support</a></li><br>
-                        <li><a id="swordsman" href="file:///C:/sts-workJS/siteRPG/class/swordman.html">Swordsman</a></li><br>
-                        <li><a id="tanker" href="file:///C:/sts-workJS/siteRPG/class/tanker.html">Tanker</a></li>
-                    </b>
-                </ol>
             </nav>
             <h2 id="map">
                 Map
@@ -325,7 +263,7 @@
                 fairies and the like were, but for some reason the number of beings and new species of creatures that
                 emerge annually is alarming and thanks to that, adventurers and hunters are still a necessity, and there
                 are always groups of people who decide walk your life from village to village killing monsters in
-                exchange for gold, food and drink.<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                exchange for gold, food and drink.
             </p>
         </section>
     </div>
