@@ -2,10 +2,6 @@
 <html lang="pt-BR">
 
 <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ephesis&family=Fasthand&display=swap" rel="stylesheet">
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, inital-scale1.0">
     <title>Just an RPG</title>
@@ -27,6 +23,11 @@
             float: right;
             width: 30%;
             margin-top: 20px;
+        }
+
+        .title {
+            font-size: 35px;
+            color: rgb(207, 154, 7);
         }
 
         #bestials {
@@ -72,19 +73,18 @@
         }
 
         #lether {
-            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
+            background-image: url("C:/Users/Tina2/Downloads/PhotoRoom-20230730_111012.png");
             background-size: 80% 100%;
             height: 100%;
             background-repeat: no-repeat;
             background-position: 50% top;
             text-align: center;
-            padding-left: 150px;
-            padding-right: 150px;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            font-family: 'Fasthand', cursive;
-            font-size: 20px;
-            color: black;
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top: 18px;
+            padding-bottom: 80px;
+            font-size: 15px;
+            color: rgb(80, 59, 2);
         }
 
         #races {
@@ -151,7 +151,7 @@
             border-style: none;
         }
 
-        #table2  tr,
+        #table2 tr,
         td {
             background-color: rgba(0, 0, 0, 0.5);
             border-style: solid;
@@ -183,7 +183,6 @@
         p {
             text-align: center;
             color: black;
-            text-shadow: -1px -1px 0 white;
         }
 
         caption {
@@ -206,7 +205,7 @@
 <body>
     <table id="table1"><b>
             <tr>
-                <td><a><b>Weapons</b></a></td>
+                <td><a href="file:///C:/sts-workJS/siteRPG/weapons.html"><b>Weapons</b></a></td>
                 <td id="logo"><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html"><b>Just an RPG</b></a></td>
                 <td><a href="file:///C:/sts-workJS/siteRPG/class/classI.html"><b>Class</b></a></td>
             </tr>
@@ -224,7 +223,7 @@
                             <td><a id="elfs" href="file:///C:/sts-workJS/siteRPG/races/elfs.html"></a></td>
                         </tr>
                         <tr>
-                            <td><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairy.html"></a></td>
+                            <td><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairys.html"></a></td>
                             <td><a id="halflings" href="file:///C:/sts-workJS/siteRPG/races/halflings.html"></a></td>
                         </tr>
                         <tr>
@@ -243,27 +242,40 @@
                         src="https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg"></a>
             </nav>
         </section>
-        <h2>
-            History
-        </h2>
         <section class="left">
             <p id="lether">
-                For a long time, civilizations were not yet populous and the lands of the kingdom were not explored, but
-                with the growth of races, the kingdom became known for its adventurers.<br>
-                This custom of adventurers exploring the lands in search of gold, glory and adventures, was born with a
-                young Halfling who decided to take a risk in the world beyond the mountains his name was Dmikla
-                so'Sotura, this young man started to walk through the lands of the kingdom meeting Humans, Orcs, Fairies
-                and Elves, he was the one who designed the map of the kingdom and who sang the first songs of battles
-                against dragons, sea serpents and other creatures.<br>
-                Over time, inspired by the stories of this adventurer, others took courage and left to explore the
-                world.<br>
-                Humans with a map in hand began to create roads and streets to connect their lands, and then came the
-                first dispute over lands known as the great war, and in that a powerful wizard created the Bestials,
-                after the great war the nations were delimited, everyone knew where the lands of the Elves, humans,
-                fairies and the like were, but for some reason the number of beings and new species of creatures that
-                emerge annually is alarming and thanks to that, adventurers and hunters are still a necessity, and there
-                are always groups of people who decide walk your life from village to village killing monsters in
-                exchange for gold, food and drink.
+                <b class="title">History</b><br><br>
+                <b>For a long time, the vast lands of the kingdom remained unexplored, as civilizations were yet to
+                    flourish and the races were not populous. However, with the gradual growth of these diverse races, a
+                    new tradition emerged that would forever change the fate of the kingdom - the tradition of
+                    adventurers.<br>
+                    It all began with a young and adventurous Halfling named Dmikla so'Sotura. Fueled by an insatiable
+                    curiosity and a longing to venture beyond the towering mountains, he set out on a daring journey
+                    into the unknown. Travelling through uncharted territories, Dmikla encountered a tapestry of
+                    different beings - Humans, Orcs, Fairies, and Elves. He became the pioneering cartographer, mapping
+                    the unexplored lands of the kingdom and recounting epic tales of battles fought against fearsome
+                    dragons, monstrous sea serpents, and other fantastical creatures.<br>
+                    As the stories of Dmikla's exploits spread far and wide, they ignited a spark of bravery in the
+                    hearts of others. Inspired by his courage, a new generation of adventurers emerged, setting forth to
+                    explore the world and seek their fortunes. Armed with the knowledge provided by Dmikla's maps, the
+                    Humans forged roads and pathways, connecting their scattered settlements and laying the foundation
+                    for a network of trade and communication.<br>
+                    Yet, the newfound prosperity came with its challenges. The desire for land and resources led to
+                    conflicts, and the kingdom was engulfed in what came to be known as the 'great war.' Amidst the
+                    chaos, a powerful wizard crafted the Bestials - enigmatic beings that would shape the course of
+                    history.<br>
+                    After the great war, the nations were finally delimited, and each race found their place within the
+                    borders of the kingdom. Despite this newfound stability, a peculiar phenomenon continued to puzzle
+                    the inhabitants. Every year, new species of creatures and beings emerged, some mysterious and others
+                    menacing. The rapid proliferation of these beings brought forth unforeseen challenges, making
+                    adventurers and skilled hunters an indispensable necessity.<br>
+                    Hence, to this day, bands of valiant individuals embark on journeys from village to village, taking
+                    on the role of protectors. They bravely face the lurking monsters and mystical dangers, in exchange
+                    for rewards of gold, food, and drink. Their presence ensures the safety of the kingdom's inhabitants
+                    and serves as a reminder that the world is ever-changing and full of unexplored wonders.<br>
+                    Little did Dmikla so'Sotura know that his single step into the uncharted lands would sow the seeds
+                    of a timeless tradition - the legacy of adventurers who continue to shape the fate of the kingdom
+                    and explore the boundless mysteries that lie beyond.</b><br><br>
             </p>
         </section>
     </div>

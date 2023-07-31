@@ -14,6 +14,7 @@
             background-image: url("https://2.bp.blogspot.com/-HIRdGNOvlQw/TZCvBGsnQRI/AAAAAAAABJY/PO8VfVHHbEU/s1600/full0018.jpg");
             background-size: 100% 100%;
             background-repeat: no-repeat;
+            margin: 0%;
         }
 
         .container {
@@ -34,102 +35,61 @@
             margin-top: 20px;
         }
 
-        h1 {
-            position: relative;
-            text-align: center;
-            color: rgb(255, 1, 1);
-            margin: 0;
-            padding: 2%;
-            background-size: 100% 150%;
+        #history {
+            background-image: url("C:/Users/Tina2/Downloads/PhotoRoom-20230730_111012.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 90% 100%;
+            padding-top: 5%;
+            padding-left: 20%;
+            padding-right: 25%;
+            padding-bottom: 10%;
         }
 
-        h1::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("https://img.freepik.com/fotos-premium/a-selva-e-uma-cidade-cercada-por-florestas-tropicais_853645-30190.jpg");
-            opacity: 0.9;
-            background-size: 100% 450%;
-            background-position: center;
-            z-index: -1;
+        #logo {
+            font-size: 35px;
+            text-shadow: -2px -2px 0 white;
+        }
+
+        #left {
+            float: left;
+            margin-left: 5%;
+            padding-left: 2%;
+            padding-right: 2%;
+            margin-top: 3%;
+        }
+
+        #right {
+            float: right;
+            margin-right: 5%;
+            margin-top: 3%;
         }
 
         h2 {
-            position: relative;
-            color: white;
-            margin: 0%;
+            float: right;
+            background-image: url("file:///C:/Users/Tina2/Downloads/fundo2.png");
+            background-size: 100% 100%;
+            width: 150px;
+            height: 40px;
             text-align: center;
+            padding-top: 1%;
+            margin-right: 5%;
+            margin-bottom: 10%;
+            margin-top: 0%;
         }
 
-        h2::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            opacity: 0.8;
-            z-index: -1;
-        }
-
-        h3 {
-            text-align: center;
-            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
-            background-size: cover;
-            background-repeat: no-repeat;
-            opacity: 0.85;
-            color: white;
-            margin: 7% 0% 0% 0%;
-        }
-
-        #history {
-            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 90% 100%;
-        }
-
-        #characteristics {
-            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: 90% 100%;
-        }
-
-        #characteristics p {
-            padding: 5% 10%;
-            font-family: 'Fasthand', cursive;
-            font-size: 20px;
-            color: black;
-            margin-bottom: 0%;
-        }
-
-        #characteristics img {
-            float: left;
+        img {
             padding: 30px 0px 0px 70px;
             margin-right: 20px;
             width: 200px;
-        }
-
-        #habits {
-            background-image: url("https://img.freepik.com/fotos-gratis/papel-de-papiro-castanho_53876-14519.jpg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 90% 100%;
+            height: 300px;
         }
 
         p {
-            padding: 5% 10%;
             font-family: 'Fasthand', cursive;
             font-size: 20px;
             color: black;
-            text-align: ;
+            text-align: center;
         }
 
         nav {
@@ -141,60 +101,88 @@
             padding: 0px 0px 0px 0px;
         }
 
+    
         a {
             text-decoration: none;
+            color: white;
+            text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
+        }
+
+        table {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-style: solid;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        tr {
+            text-align: center;
+            color: white;
+            width: 100%;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        td {
+            text-align: center;
+            text-shadow: -2px -2px 0 white;
             color: black;
-            text-shadow: -2px -2px 0 red, -2px 2px 0 red, 2px -2px 0 red, 2px 2px 0 red;
+            height: 100px;
+            vertical-align: middle;
+            font-size: 24px;
+            margin: 0%;
+            padding-inline: 100px 150px;
         }
     </style>
 </head>
 
 <body>
-    <h1>
-        <a href="file:///C:/sts-workJS/siteRPG/tableRPG.html">
-            <span class="border">Just an RPG</span>
-        </a>
-    </h1>
-    <h2>Elfs</h2>
+    <table><b>
+            <tr>
+                <td><a href="file:///C:/sts-workJS/siteRPG/weapons.html"><b>Weapons</b></a></td>
+                <td id="logo"><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html"><b>Just an RPG</b></a></td>
+                <td><a href="file:///C:/sts-workJS/siteRPG/class/classI.html"><b>Class</b></a></td>
+            </tr>
+        </b>
+    </table>
     <div class="container">
-        <section class="left">
+        <section>
             <p id="history">
-                <b>History of the Elfs:</b> Elves are some of the oldest creatures in the realms, said to be older than even the trees they live in. His main abode is in the forest 
+                <b>Elfs</b><br><br><br>
+                <b>History of the Elfs:</b><br><br> Elves are some of the oldest creatures in the realms, said to be older than even the trees they live in. His main abode is in the forest 
                 of darkness. These cute pointy-eared creatures are known for their marksmanship and their crafting of magical clothes.<br>
-                They were enslaved by humans years ago so they remain hidden from civilization today. Only banished elves are seen walking in cities outside of elven rule.<br><br><br><br><br><br><br><br><br><br><br><br>
+                They were enslaved by humans years ago so they remain hidden from civilization today. Only banished elves are seen walking in cities outside of elven rule.<br>
+                <img src="https://static.wikia.nocookie.net/iccarion/images/9/9e/Elfos_da_floresta.jpg/revision/latest?cb=20210219034017&path-prefix=pt-br" alt="Characteristics"
+                class="characteristic-image"><br>
+                <b>characteristics:</b><br><br> Their height varies on average between 160cm and 170cm in height, they are very light weighing around 35kg, They are great archers and their 
+                weight helps them to walk stealthily so their biggest fights are with ambushes.<br>
+                Their homes are in the tops of trees, and are usually well camouflaged, using branch bridges as streets.<br>
+                Its political structure is matriarchal, and its army despite being beings of the forest, bear metal armor adorned with gold and precious stones.<br>
+                Its main skills are:<br><br>
+                nature control magic<br>
+                lightness<br>
+                sharp vision<br>
+                speed<br><br>
+                <b>Habits:</b><br><br>
+                Their habits vary greatly from city to city, but for the most part, the elves praise the gods of nature, making rites for the sun god, moon, water, wind and the like, the only 
+                outsiders they allow to enter their lands are those whom the elves believe to be touched by nature, like a man they found on the riverbank after a huge flood, and even unconscious, 
+                he was dry and alive.<br><br>
             </p>
         </section>
-        <section class="right">
-            <div id="characteristics">
-                <img src="https://static.wikia.nocookie.net/iccarion/images/9/9e/Elfos_da_floresta.jpg/revision/latest?cb=20210219034017&path-prefix=pt-br" alt="Characteristics"
-                    class="characteristic-image">
-                <p>
-                    <b>characteristics:</b> Their height varies on average between 160cm and 170cm in height, they are very light weighing around 35kg, They are great archers and their 
-                    weight helps them to walk stealthily so their biggest fights are with ambushes.<br>
-                    Their homes are in the tops of trees, and are usually well camouflaged, using branch bridges as streets.<br>
-                    Its political structure is matriarchal, and its army despite being beings of the forest, bear metal armor adorned with gold and precious stones.<br>
-                    Its main skills are:
-                    <nav>
-                        <ul>
-                            <il>nature control magic</il><br>
-                            <il>lightness</il><br>
-                            <il>sharp vision</il><br>
-                        </ul>
-                    </nav>
-                </p>
-            </div>
-        </section>
-    </div>
-    <section>
-        <h2 class="botton">
-            Habits
-        </h2>
-        <p id="habits">
-            Their habits vary greatly from city to city, but for the most part, the elves praise the gods of nature, making rites for the sun god, moon, water, wind and the like, the only 
-            outsiders they allow to enter their lands are those whom the elves believe to be touched by nature, like a man they found on the riverbank after a huge flood, and even unconscious, 
-            he was dry and alive.
-        </p>
-    </section>
+        </div>
+        <div>
+            <a href="file:///C:/sts-workJS/siteRPG/races/bestial.html">
+                <h2 id="left">previous page</h2>
+            </a>
+            <a href="file:///C:/sts-workJS/siteRPG/races/fairys.html">
+                <h2 id="right">Next Page</h2>
+            </a>
+        </div>
 </body>
 
 </html>
