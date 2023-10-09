@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inital-scale1.0">
+    <title>Just an RPG</title>
+
+    <style>
+        body {
+            background-image: url("file:///C:/Users/Tina2/Pictures/RPGsite/map2.jpg");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            margin: 0%;
+        }
+
+        .left {
+            float: left;
+            width: 70%;
+        }
+
+        .right {
+            float: right;
+            width: 30%;
+            margin-top: 20px;
+        }
+
+        .title {
+            font-size: 35px;
+            color: rgb(207, 154, 7);
+        }
+
+        #bestials {
+            background-image: url("file:///C:/Users/Tina2/Pictures/RPGsite/iconebestial.jpg");
+            padding: 43px 91px;
+            background-size: 100% 125%;
+            background-repeat: no-repeat;
+        }
+
+        #elfs {
+            background-image: url("https://static.wixstatic.com/media/371a13_da64c793f0a743ce846c0ea8f2dd9332~mv2.jpg/v1/fill/w_480,h_560,al_c,lg_1,q_80,enc_auto/371a13_da64c793f0a743ce846c0ea8f2dd9332~mv2.jpg");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #fairys {
+            background-image: url("https://img.quizur.com/f/img644ae0ebcaff35.27049047.jpeg?lastEdited=1682628854");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #halflings {
+            background-image: url("file:///C:/Users/Tina2/Pictures/RPGsite/iconehalfling.jpg");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #humans {
+            background-image: url("file:///C:/Users/Tina2/Pictures/RPGsite/iconehuman.jpg");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #orcs {
+            background-image: url("https://assetsio.reedpopcdn.com/its-not-easy-being-green-a-brief-history-of-orcs-in-video-games-1580836292361.jpg?width=1200&height=1200&fit=crop&quality=100&format=png&enable=upscale&auto=webp");
+            padding: 43px 91px;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+
+        #lether {
+            background-image: url("C:/Users/Tina2/Downloads/PhotoRoom-20230730_111012.png");
+            background-size: 80% 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-position: 50% top;
+            text-align: center;
+            padding-left: 200px;
+            padding-right: 200px;
+            padding-top: 18px;
+            padding-bottom: 80px;
+            font-size: 15px;
+            color: rgb(80, 59, 2);
+        }
+
+        #races {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuJ7P3y0Lx2kv_KzZMHOZYafx7oYn58mH-dg&usqp=CAU");
+            background-size: 100% 90%;
+            opacity: 0.95;
+            border: 5px solid rgba(0, 0, 0, 0.5);
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        #map {
+            margin-top: 30px;
+        }
+
+        #map-img {
+            padding: 150px 100px;
+            margin: 0%;
+            border: solid;
+            border-width: 4px;
+            border-color: rgb(34, 7, 7);
+            position: relative;
+            overflow: hidden;
+        }
+
+        #map-img img {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0%;
+            left: 0%;
+        }
+
+        #table1 {
+            border-style: solid;
+            border-collapse: collapse;
+            width: 100%;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+
+        }
+
+        #table1 tr {
+            background-color: rgba(83, 83, 83, 0.5);
+            text-align: center;
+            color: white;
+            width: 100%;
+            height: 100px;
+            margin: 0%;
+            padding: 0%;
+            border-style: none;
+        }
+
+        #table1 td {
+            text-align: center;
+            text-shadow: -2px -2px 0 white;
+            color: black;
+            height: 100px;
+            vertical-align: middle;
+            font-size: 24px;
+            margin: 0%;
+            padding-inline: 100px 150px;
+            border-style: none;
+        }
+
+        #table2 tr,
+        td {
+            background-color: rgba(0, 0, 0, 0.5);
+            border-style: solid;
+            width: 100px;
+            height: 100px;
+            margin: 0%;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.85;
+            margin: 0%;
+        }
+
+        h3 {
+            text-align: center;
+            background-image: url("https://img.freepik.com/fotos-premium/fundo-de-madeira-velho-grunge-texturizado-escuro_7182-1588.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            opacity: 0.85;
+            color: white;
+            margin: 0%;
+        }
+
+        p {
+            text-align: center;
+            color: black;
+        }
+
+        caption {
+            border: 4px;
+            border-style: solid;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
+        }
+
+        ol {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <table id="table1"><b>
+            <tr>
+                <td><a href="file:///C:/sts-workJS/siteRPG/weapons.html"><b>Weapons</b></a></td>
+                <td id="logo"><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html"><b>Just an RPG</b></a></td>
+                <td><a href="file:///C:/sts-workJS/siteRPG/class/classI.html"><b>Class</b></a></td>
+            </tr>
+        </b>
+    </table>
+    <div class="container">
+        <section class="right">
+            <nav id="races">
+                <h2>Races</h2>
+                <table id="table2">
+                    <tbody>
+                        <tr>
+                            <td><a id="bestials" href="file:///C:/sts-workJS/siteRPG/races/bestial.html"></a>
+                            </td>
+                            <td><a id="elfs" href="file:///C:/sts-workJS/siteRPG/races/elfs.html"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a id="fairys" href="file:///C:/sts-workJS/siteRPG/races/fairys.html"></a></td>
+                            <td><a id="halflings" href="file:///C:/sts-workJS/siteRPG/races/halflings.html"></a></td>
+                        </tr>
+                        <tr>
+                            <td><a id="humans" href="file:///C:/sts-workJS/siteRPG/races/humans.html">
+                                </a></td>
+                            <td><a id="orcs" href="file:///C:/sts-workJS/siteRPG/races/orcs.html"></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </nav>
+            <h2 id="map">
+                Map
+            </h2>
+            <nav id="map-img">
+                <a href="file:///C:/sts-workJS/siteRPG/map.html"><img
+                        src="file:///C:/Users/Tina2/Pictures/RPGsite/map.jpg"></a>
+            </nav>
+        </section>
+        <section class="left">
+            <p id="lether">
+                <b class="title">History</b><br><br>
+                <b>For a long time, the vast lands of the kingdom remained unexplored, as civilizations were yet to
+                    flourish and the races were not populous. However, with the gradual growth of these diverse races, a
+                    new tradition emerged that would forever change the fate of the kingdom - the tradition of
+                    adventurers.<br>
+                    It all began with a young and adventurous Halfling named Dmikla so'Sotura. Fueled by an insatiable
+                    curiosity and a longing to venture beyond the towering mountains, he set out on a daring journey
+                    into the unknown. Travelling through uncharted territories, Dmikla encountered a tapestry of
+                    different beings - Humans, Orcs, Fairies, and Elves. He became the pioneering cartographer, mapping
+                    the unexplored lands of the kingdom and recounting epic tales of battles fought against fearsome
+                    dragons, monstrous sea serpents, and other fantastical creatures.<br>
+                    As the stories of Dmikla's exploits spread far and wide, they ignited a spark of bravery in the
+                    hearts of others. Inspired by his courage, a new generation of adventurers emerged, setting forth to
+                    explore the world and seek their fortunes. Armed with the knowledge provided by Dmikla's maps, the
+                    Humans forged roads and pathways, connecting their scattered settlements and laying the foundation
+                    for a network of trade and communication.<br>
+                    Yet, the newfound prosperity came with its challenges. The desire for land and resources led to
+                    conflicts, and the kingdom was engulfed in what came to be known as the 'great war.' Amidst the
+                    chaos, a powerful wizard crafted the Bestials - enigmatic beings that would shape the course of
+                    history.<br>
+                    After the great war, the nations were finally delimited, and each race found their place within the
+                    borders of the kingdom. Despite this newfound stability, a peculiar phenomenon continued to puzzle
+                    the inhabitants. Every year, new species of creatures and beings emerged, some mysterious and others
+                    menacing. The rapid proliferation of these beings brought forth unforeseen challenges, making
+                    adventurers and skilled hunters an indispensable necessity.<br>
+                    Hence, to this day, bands of valiant individuals embark on journeys from village to village, taking
+                    on the role of protectors. They bravely face the lurking monsters and mystical dangers, in exchange
+                    for rewards of gold, food, and drink. Their presence ensures the safety of the kingdom's inhabitants
+                    and serves as a reminder that the world is ever-changing and full of unexplored wonders.<br>
+                    Little did Dmikla so'Sotura know that his single step into the uncharted lands would sow the seeds
+                    of a timeless tradition - the legacy of adventurers who continue to shape the fate of the kingdom
+                    and explore the boundless mysteries that lie beyond.</b><br><br>
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>

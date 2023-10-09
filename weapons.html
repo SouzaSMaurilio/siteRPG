@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weapons</title>
+
+    <style>
+        body {
+            background-image: url("https://cdna.artstation.com/p/assets/images/images/041/873/528/large/antonio-the-forge.jpg?1632934928");
+            width: 100%;
+            height: 100%;
+            margin: 0%;
+        }
+
+        caption {
+            font-size: 45px;
+            color: white;
+            text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
+        }
+        .container {
+            background-color: rgba(94, 91, 91, 0.5);
+            padding: 30px;
+            border: 4px;
+            border-style: solid;
+            border-color: gray;
+            text-align: center;
+        }
+
+        .table-container {
+            margin-top: 3%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 3%;
+            width: 90%;
+            height: 94%;
+            max-height: 400px;
+            overflow: auto;
+        }
+
+        .left {
+            float: left;
+            font-size: 24px;
+            margin-left: 10%;
+        }
+
+        .center {
+            font-size: 35px;
+            text-shadow: -2px -2px 0 white;
+        }
+
+        .right {
+            float: right;
+            font-size: 24px;
+            margin-right: 10%;
+        }
+
+
+        table {
+            text-align: center;
+            border-collapse: collapse;
+            width: 90%;
+            height: 100%;
+        }
+
+        th,
+        td {
+            border-color: black;
+            height: 40px;
+        }
+
+        th {
+            border: 4px solid black;
+            color: white;
+        }
+
+        td {
+            background-color: rgba(163, 163, 163, 0.3);
+            height: 25px;
+            border: 4px;
+            border-style: solid;
+            border-color: black;
+            color: white;
+        }
+
+        tr:nth-child(odd) {
+            background-color: rgba(163, 163, 163, 0.3); /* Cor de fundo para linhas ímpares */
+        }
+
+        tr:nth-child(even) {
+            background-color: rgba(5, 5, 5, 0.9); /* Cor de fundo para linhas pares */
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-shadow: -2px -2px 0 rgb(63, 48, 48), 2px -2px 0 rgb(63, 48, 48), -2px 2px 0 rgb(63, 48, 48), 2px 2px 0 rgb(63, 48, 48);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a class="left" href="file:///C:/sts-workJS/siteRPG/races/bestial.html"><b>Races</b></a>
+        <span class="center"><a href="file:///C:/sts-workJS/siteRPG/tableRPG.html"><b>Just an RPG</b></a></span>
+        <a class="right" href="file:///C:/sts-workJS/siteRPG/class/classI.html"><b>Class</b></a>
+    </div>
+    </table>
+    <div class="table-container">
+        <table>
+            <tr>
+                <caption>Weapons</caption>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Handles Control</th>
+                <th>Damage</th>
+                <th>Bonus</th>
+                <th>Description</th>
+            </tr>
+            <tbody>
+                <tr>
+                    <td>Light Bow</td>
+                    <td>Bow</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Lightning Damage</td>
+                    <td>A lightweight bow that enhances lightning damage for precise shots.</td>
+                </tr>
+                <tr>
+                    <td>Battle Axe</td>
+                    <td>Axe</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Strength</td>
+                    <td>A heavy battle axe that grants exceptional strength to its wielder.</td>
+                </tr>
+                <tr>
+                    <td>Fire Wand</td>
+                    <td>Wand</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A wand that channels powerful fire spells with moderate control.</td>
+                </tr>
+                <tr>
+                    <td>Frost Spear</td>
+                    <td>Spear</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Ice Damage</td>
+                    <td>A spear imbued with icy magic, dealing chilling damage to enemies.</td>
+                </tr>
+                <tr>
+                    <td>Wind Blade</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Wind Damage</td>
+                    <td>A swift sword that harnesses the power of wind to cut through foes.</td>
+                </tr>
+                <tr>
+                    <td>Water Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Healing</td>
+                    <td>A magical staff with strong control over water, capable of healing allies.</td>
+                </tr>
+                <tr>
+                    <td>Earth Hammer</td>
+                    <td>Hammer</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Resistance</td>
+                    <td>A massive hammer that grants resistance against elemental attacks.</td>
+                </tr>
+                <tr>
+                    <td>Shadow Dagger</td>
+                    <td>Dagger</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Stealth</td>
+                    <td>A dagger that cloaks its wielder in shadows for stealthy maneuvers.</td>
+                </tr>
+                <tr>
+                    <td>Enchanted Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Elemental Protection</td>
+                    <td>A bow enchanted to provide elemental protection to the archer.</td>
+                </tr>
+                <tr>
+                    <td>Fireball Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A wand that shoots fiery fireballs, causing damage to enemies.</td>
+                </tr>
+                <tr>
+                    <td>Lightning Spear</td>
+                    <td>Spear</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                    <td>More Lightning Damage</td>
+                    <td>A spear crackling with lightning energy, dealing shocking damage.</td>
+                </tr>
+                <tr>
+                    <td>Holy Mace</td>
+                    <td>Mace</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Healing</td>
+                    <td>A sacred mace with healing powers, offering support to allies.</td>
+                </tr>
+                <tr>
+                    <td>Dark Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Dark Damage</td>
+                    <td>A staff infused with dark magic, unleashing mysterious powers.</td>
+                </tr>
+                <tr>
+                    <td>Ice Blade</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Ice Damage</td>
+                    <td>A blade enveloped in ice, freezing enemies upon striking.</td>
+                </tr>
+                <tr>
+                    <td>Gale Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Wind Damage</td>
+                    <td>A bow that launches razor-sharp wind blades at opponents.</td>
+                </tr>
+                <tr>
+                    <td>Ethereal Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Elemental Protection</td>
+                    <td>A wand that grants protection against elemental attacks.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A staff adorned with crystals, harnessing the power of light magic.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Blade</td>
+                    <td>Sword</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Thunder Damage</td>
+                    <td>A powerful sword that unleashes thunderous strikes upon foes.</td>
+                </tr>
+                <tr>
+                    <td>Swift Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Agility</td>
+                    <td>Lightweight gauntlets that enhance the wearer's agility and movement speed.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Shield</td>
+                    <td>Shield</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Elemental Protection</td>
+                    <td>A sturdy shield embedded with magical crystals for elemental defense.</td>
+                </tr>
+                <tr>
+                    <td>Flame Scimitar</td>
+                    <td>Sword</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A scimitar that deals fiery slashes, burning enemies upon contact.</td>
+                </tr>
+                <tr>
+                    <td>Frost Bow</td>
+                    <td>Bow</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Ice Damage</td>
+                    <td>A bow that fires frost arrows, freezing enemies in their tracks.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Orb</td>
+                    <td>Magic Staff</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A staff that conjures orbs of thunder, dealing electrifying damage.</td>
+                </tr>
+                <tr>
+                    <td>Earth Axe</td>
+                    <td>Axe</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>An axe imbued with earth magic, causing tremors with every swing.</td>
+                </tr>
+                <tr>
+                    <td>Winged Wand</td>
+                    <td>Wand</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Flight</td>
+                    <td>A wand that grants the ability of flight, levitating the wielder in the air.</td>
+                </tr>
+                <tr>
+                    <td>Floral Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Healing</td>
+                    <td>A staff adorned with flowers, providing powerful healing abilities.</td>
+                </tr>
+                <tr>
+                    <td>Meteor Sword</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>High</td>
+                    <td>More Fire Damage</td>
+                    <td>A sword that summons meteors from the sky, causing devastating fire damage.</td>
+                </tr>
+                <tr>
+                    <td>Enchanted Shield</td>
+                    <td>Shield</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Resistance</td>
+                    <td>A shield enchanted with resistance, reducing damage from all sources.</td>
+                </tr>
+                <tr>
+                    <td>Twilight Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Dark Damage</td>
+                    <td>A bow that shoots arrows shrouded in twilight, dealing dark damage.</td>
+                </tr>
+                <tr>
+                    <td>Whirlwind Dagger</td>
+                    <td>Dagger</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Wind Damage</td>
+                    <td>A dagger that creates whirlwinds, striking enemies with gusts of wind.</td>
+                </tr>
+                <tr>
+                    <td>Stone Mace</td>
+                    <td>Mace</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Resistance</td>
+                    <td>A mace carved from stone, offering resistance against physical attacks.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Light Damage</td>
+                    <td>A wand adorned with crystals, channeling the power of light magic.</td>
+                </tr>
+                <tr>
+                    <td>Flame Spear</td>
+                    <td>Spear</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Fire Damage</td>
+                    <td>A spear engulfed in flames, dealing burning damage to enemies.</td>
+                </tr>
+                <tr>
+                    <td>Storm Sword</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A sword that summons thunderstorms, electrifying its strikes.</td>
+                </tr>
+                <tr>
+                    <td>Tidal Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Water Damage</td>
+                    <td>A staff that controls the tides, unleashing water-based attacks.</td>
+                </tr>
+                <tr>
+                    <td>Starlight Bow</td>
+                    <td>Bow</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Light Damage</td>
+                    <td>A bow that shoots starlight arrows, piercing through darkness.</td>
+                </tr>
+                <tr>
+                    <td>Lunar Wand</td>
+                    <td>Wand</td>
+                    <td>Medium</td>
+                    <td>High</td>
+                    <td>More Dark Damage</td>
+                    <td>A wand that harnesses the power of the moon, invoking dark magic.</td>
+                </tr>
+                <tr>
+                    <td>Magma Blade</td>
+                    <td>Sword</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Fire Damage</td>
+                    <td>A blade infused with magma, dealing scorching heat to opponents.</td>
+                </tr>
+                <tr>
+                    <td>Frost Axe</td>
+                    <td>Axe</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Ice Damage</td>
+                    <td>An axe that freezes enemies, creating icy conditions in battle.</td>
+                </tr>
+                <tr>
+                    <td>Divine Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>Healing</td>
+                    <td>A staff bestowed with divine powers, offering powerful healing capabilities.</td>
+                </tr>
+                <tr>
+                    <td>Storm Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A bow that releases thunderstorms with every arrow shot.</td>
+                </tr>
+                <tr>
+                    <td>Astral Wand</td>
+                    <td>Wand</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A wand that taps into the astral plane, harnessing the power of light magic.</td>
+                </tr>
+                <tr>
+                    <td>Void Dagger</td>
+                    <td>Dagger</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Dark Damage</td>
+                    <td>A dagger from the void, capable of dealing dark and mysterious damage.</td>
+                </tr>
+                <tr>
+                    <td>Tempest Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Wind Damage</td>
+                    <td>Gauntlets that channel the power of tempests, generating gusts of wind.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Sword</td>
+                    <td>Sword</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A sword adorned with crystals, radiating the power of light magic.</td>
+                </tr>
+                <tr>
+                    <td>Ice Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Ice Damage</td>
+                    <td>A wand that conjures icy spells, freezing enemies in their tracks.</td>
+                </tr>
+                <tr>
+                    <td>Stone Shield</td>
+                    <td>Shield</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Resistance</td>
+                    <td>A sturdy shield carved from stone, providing resistance against all threats.</td>
+                </tr>
+                <tr>
+                    <td>Lunar Spear</td>
+                    <td>Spear</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Dark Damage</td>
+                    <td>A spear that draws power from the moon, dealing dark and mysterious damage.</td>
+                </tr>
+                <tr>
+                    <td>Flame Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A staff that channels flames, unleashing powerful fire-based spells.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Sword</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A sword that crackles with thunder, electrifying its wielder's strikes.</td>
+                </tr>
+                <tr>
+                    <td>Water Bow</td>
+                    <td>Bow</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Water Damage</td>
+                    <td>A bow that summons water arrows, dealing fluid and precise damage.</td>
+                </tr>
+                <tr>
+                    <td>Stone Wand</td>
+                    <td>Wand</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>A wand that harnesses the power of earth, causing tremors and upheaval.</td>
+                </tr>
+                <tr>
+                    <td>Sunfire Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>Gauntlets infused with the power of the sun, radiating intense heat.</td>
+                </tr>
+                <tr>
+                    <td>Mist Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Water Damage</td>
+                    <td>A staff that summons misty illusions, dealing water-based attacks.</td>
+                </tr>
+                <tr>
+                    <td>Ember Sword</td>
+                    <td>Sword</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A sword that smolders with embers, burning enemies upon striking.</td>
+                </tr>
+                <tr>
+                    <td>Quake Axe</td>
+                    <td>Axe</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>An axe that causes quakes, creating fissures in the ground.</td>
+                </tr>
+                <tr>
+                    <td>Abyssal Dagger</td>
+                    <td>Dagger</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Dark Damage</td>
+                    <td>A dagger from the abyss, inflicting dark and mysterious damage.</td>
+                </tr>
+                <tr>
+                    <td>Skyward Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Flight</td>
+                    <td>A bow that grants the ability of flight, propelling arrows through the skies.</td>
+                </tr>
+                <tr>
+                    <td>Eclipse Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Dark Damage</td>
+                    <td>A wand that harnesses the power of an eclipse, invoking dark magic.</td>
+                </tr>
+                <tr>
+                    <td>Golem Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Resistance</td>
+                    <td>Gauntlets crafted from golem materials, providing resistance against all threats.</td>
+                </tr>
+                <tr>
+                    <td>Sunrise Sword</td>
+                    <td>Sword</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A sword that glows with the colors of sunrise, emitting radiant light.</td>
+                </tr>
+                <tr>
+                    <td>Aqua Spear</td>
+                    <td>Spear</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Water Damage</td>
+                    <td>A spear that controls water, launching torrents at opponents.</td>
+                </tr>
+                <tr>
+                    <td>Nature Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>A staff that commands the forces of nature, unleashing earth-based spells.</td>
+                </tr>
+                <tr>
+                    <td>Celestial Bow</td>
+                    <td>Bow</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Light Damage</td>
+                    <td>A bow said to have fallen from the heavens, radiating divine light.</td>
+                </tr>
+                <tr>
+                    <td>Nightfall Wand</td>
+                    <td>Wand</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Dark Damage</td>
+                    <td>A wand that draws power from the night, invoking dark and mysterious magic.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Thunder Damage</td>
+                    <td>Gauntlets that crackle with electricity, delivering shocking blows.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Shield</td>
+                    <td>Shield</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Elemental Protection</td>
+                    <td>A sturdy shield embedded with magical crystals for elemental defense.</td>
+                </tr>
+                <tr>
+                    <td>Flame Scimitar</td>
+                    <td>Sword</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A scimitar that deals fiery slashes, burning enemies upon contact.</td>
+                </tr>
+                <tr>
+                    <td>Frost Bow</td>
+                    <td>Bow</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Ice Damage</td>
+                    <td>A bow that fires frost arrows, freezing enemies in their tracks.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Orb</td>
+                    <td>Magic Staff</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A staff that conjures orbs of thunder, dealing electrifying damage.</td>
+                </tr>
+                <tr>
+                    <td>Earth Axe</td>
+                    <td>Axe</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>An axe imbued with earth magic, causing tremors with every swing.</td>
+                </tr>
+                <tr>
+                    <td>Winged Wand</td>
+                    <td>Wand</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A wand that grants the ability of flight, levitating the wielder in the air.</td>
+                </tr>
+                <tr>
+                    <td>Floral Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Healing</td>
+                    <td>A staff adorned with flowers, providing powerful healing abilities.</td>
+                </tr>
+                <tr>
+                    <td>Meteor Sword</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>High</td>
+                    <td>More Fire Damage</td>
+                    <td>A sword that summons meteors from the sky, causing devastating fire damage.</td>
+                </tr>
+                <tr>
+                    <td>Enchanted Shield</td>
+                    <td>Shield</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Resistance</td>
+                    <td>A shield enchanted with resistance, reducing damage from all sources.</td>
+                </tr>
+                <tr>
+                    <td>Twilight Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Dark Damage</td>
+                    <td>A bow that shoots arrows shrouded in twilight, dealing dark damage.</td>
+                </tr>
+                <tr>
+                    <td>Whirlwind Dagger</td>
+                    <td>Dagger</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Wind Damage</td>
+                    <td>A dagger that creates whirlwinds, striking enemies with gusts of wind.</td>
+                </tr>
+                <tr>
+                    <td>Stone Mace</td>
+                    <td>Mace</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Resistance</td>
+                    <td>A mace carved from stone, offering resistance against physical attacks.</td>
+                </tr>
+                <tr>
+                    <td>Crystal Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Light Damage</td>
+                    <td>A wand adorned with crystals, channeling the power of light magic.</td>
+                </tr>
+                <tr>
+                    <td>Flame Spear</td>
+                    <td>Spear</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Fire Damage</td>
+                    <td>A spear engulfed in flames, dealing burning damage to enemies.</td>
+                </tr>
+                <tr>
+                    <td>Storm Sword</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A sword that crackles with thunder, electrifying its strikes.</td>
+                </tr>
+                <tr>
+                    <td>Water Bow</td>
+                    <td>Bow</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Water Damage</td>
+                    <td>A bow that summons water arrows, dealing fluid and precise damage.</td>
+                </tr>
+                <tr>
+                    <td>Stone Wand</td>
+                    <td>Wand</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Earth Damage</td>
+                    <td>A wand that harnesses the power of earth, causing tremors and upheaval.</td>
+                </tr>
+                <tr>
+                    <td>Sunfire Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>Gauntlets infused with the power of the sun, radiating intense heat.</td>
+                </tr>
+                <tr>
+                    <td>Mist Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Water Damage</td>
+                    <td>A staff that summons misty illusions, dealing water-based attacks.</td>
+                </tr>
+                <tr>
+                    <td>Ember Sword</td>
+                    <td>Sword</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A sword that smolders with embers, burning enemies upon striking.</td>
+                </tr>
+                <tr>
+                    <td>Thunder Gauntlets</td>
+                    <td>Gauntlets</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Thunder Damage</td>
+                    <td>Gauntlets that crackle with electricity, delivering shocking blows.</td>
+                </tr>
+                <tr>
+                    <td>Obsidian Axe</td>
+                    <td>Axe</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Dark Damage</td>
+                    <td>An axe forged from obsidian, dealing dark and mysterious damage.</td>
+                </tr>
+                <tr>
+                    <td>Lava Wand</td>
+                    <td>Wand</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A wand that channels the power of lava, emitting scorching heat.</td>
+                </tr>
+                <tr>
+                    <td>Phantom Shield</td>
+                    <td>Shield</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Stealth</td>
+                    <td>A shield that grants stealth, allowing the wielder to become invisible.</td>
+                </tr>
+                <tr>
+                    <td>Stormcaller Bow</td>
+                    <td>Bow</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Thunder Damage</td>
+                    <td>A bow that calls upon storms, firing thunderous arrows.</td>
+                </tr>
+                <tr>
+                    <td>Moonlight Wand</td>
+                    <td>Wand</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>Healing</td>
+                    <td>A wand that harnesses moonlight, providing powerful healing abilities.</td>
+                </tr>
+                <tr>
+                    <td>Magma Mace</td>
+                    <td>Mace</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Fire Damage</td>
+                    <td>A mace infused with magma, dealing scorching heat to opponents.</td>
+                </tr>
+                <tr>
+                    <td>Frosty Shield</td>
+                    <td>Shield</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>More Ice Damage</td>
+                    <td>A shield that creates frosty barriers, reducing incoming damage.</td>
+                </tr>
+                <tr>
+                    <td>Flux Dagger</td>
+                    <td>Dagger</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>Elemental Swap</td>
+                    <td>A dagger that can swap between different elemental properties.</td>
+                </tr>
+                <tr>
+                    <td>Heaven's Staff</td>
+                    <td>Magic Staff</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Light Damage</td>
+                    <td>A staff said to be gifted from the heavens, wielding divine light.</td>
+                </tr>
+                <tr>
+                    <td>Tidal Blade</td>
+                    <td>Sword</td>
+                    <td>Easy</td>
+                    <td>Medium</td>
+                    <td>More Water Damage</td>
+                    <td>A blade that draws power from tides, dealing water-based attacks.</td>
+                </tr>
+                <tr>
+                    <td>Nature Bow</td>
+                    <td>Bow</td>
+                    <td>Hard</td>
+                    <td>High</td>
+                    <td>More Earth Damage</td>
+                    <td>A bow that channels the forces of nature, causing earth-based damage.</td>
+                </tr>
+                <tr>
+                    <td>Eternal Wand</td>
+                    <td>Wand</td>
+                    <td>Medium</td>
+                    <td>Medium</td>
+                    <td>More Light Damage</td>
+                    <td>A wand that holds eternal power, invoking radiant light magic.</td>
+                </tr>
+                <tr>
+                    <td>Nightshade Dagger</td>
+                    <td>Dagger</td>
+                    <td>Easy</td>
+                    <td>Low</td>
+                    <td>Stealth</td>
+                    <td>A dagger that cloaks its wielder in shadows, granting stealth.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        </table>
+    </div>
+</body>
+
+</html>
